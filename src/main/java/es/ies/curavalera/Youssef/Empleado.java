@@ -2,16 +2,17 @@ package es.ies.curavalera.Youssef;
 
 
 /**
- *
- * @author Youssef Miftah
+ * @author Youssef_Miftah
  */
 public class Empleado {
+    //Atributos del empleado
     private String dni;
     private String nombre;
     private String direccion;
     private String cargo;
     private int numHijos;
 
+    //Setters y getters de empleados
     public String getDireccion() {
         return direccion;
     }
@@ -53,14 +54,15 @@ public class Empleado {
     }
 
 
-    
+    //Contructor
     public Empleado (String dni, String nombre){
         this.dni=dni;
         this.nombre=nombre;
         this.cargo="EMPLEADO";
         this.numHijos=0;
     }
-    
+
+    //Metodo para calcular el sueldo de los empleados
     public double calcula_sueldo(double base){
         double total=base;
         

@@ -1,15 +1,13 @@
-﻿package es.ies.curavalera.Youssef;
-
+package es.ies.curavalera.Youssef;
 /**
- *
- * @author yo misma
+ * @author Youssef_Miftah
  */
 public class Main {
 
-    /**
-     * @param args the command line arguments
-     */
+
+
     public static void main(String[] args) {
+        //Asinación de la informacion del empleado
         Empleado empleado = new Empleado("1245678M","Perico de los Palotes");
         
         empleado.setDireccion("C/del Pez,6");
@@ -18,6 +16,7 @@ public class Main {
 
     }
 
+    //Metodo de con la impresion de la informacion del empleado
     private static void imprimirEmpleado(Empleado empleado) {
         System.out.println("DNI: "+ empleado.getDni());
         System.out.println("Nombre: "+ empleado.getNombre());
