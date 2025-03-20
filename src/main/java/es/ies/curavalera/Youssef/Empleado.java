@@ -3,7 +3,7 @@ package es.ies.curavalera.Youssef;
 
 /**
  *
- * @author yo misma
+ * @author Youssef Miftah
  */
 public class Empleado {
     private String dni;
